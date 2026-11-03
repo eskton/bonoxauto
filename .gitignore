@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# секреты и данные бота
+.env
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
